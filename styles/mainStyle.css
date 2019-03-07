@@ -1,5 +1,31 @@
+@font-face{
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face{
+    font-family: mavenPro;
+    src: url(../fonts/MavenPro-Regular.ttf);
+}
+
+@keyframes resize{
+    from {
+        width: 23px;
+        height: 24px;
+    }
+
+    to {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 .hexagonals {
     margin-top: 90px;
+    height: 550px;
 }
 
 .hexagonals div:nth-child(n) {
@@ -11,7 +37,7 @@
 }
 
 .firstRow {
-    width: 800px;
+    width: 840px;
 }
 
 .secondRow {
@@ -21,7 +47,7 @@
 }
 
 .thirdRow {
-    width: 800px;
+    width: 840px;
     position: relative;
     bottom: 73px;
 }
@@ -99,4 +125,126 @@
 #hex-13 {
     background-image: url('../images/Layer-42.jpg');
     background-position-x: -10px;
+}
+
+.leftBorder, .rightBorder {
+    margin-top: 48px;
+    min-width: 1px;
+    height: 104px;
+    background-color: #e4e9eb;
+}
+
+.sliderButtons {
+    margin: 42px auto 0;
+    padding-bottom: 7px;
+    width: 960px;
+    border-bottom: 1px solid #e4e9eb;
+    cursor: default;
+}
+
+.sliderButtons button {
+    margin: 0;
+    height: 5px;
+    width: 5px;
+    border: none;
+}
+
+.sliderButtons button:hover {
+    background-color: #8b8784;
+}
+
+.blog {
+    margin-top: 12px;
+    padding: 13px 0 12px 0;
+    background-color: #2eb398;
+}
+
+.blog .container {
+    width: 820px;
+    margin: 14px auto 0;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+
+.personImage {
+    margin: 41px 0 0 20px;
+}
+
+#person {
+    background-image: url('../images/person.jpg');
+}
+
+.personInformation {
+    margin: 33px 20px 0 19px;
+}
+
+.name {
+    font-size: 22pt;
+    color: white;
+}
+
+.position {
+    font-size: 13pt;
+    color: #218570;
+    width: 580px;
+}
+
+.description p{
+    color: white;
+    font-size: 9pt;
+    margin-top: 14px;
+    line-height: 21px;
+    text-align: justify;
+    word-spacing: -3px;
+}
+
+.personInformation p{
+    font-family: mavenPro, sans-serif;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+    margin-top: 38px;
+}
+
+.links a {
+    color: #03ac95;
+}
+
+.links i {
+    font-size: 9pt;
+    margin: 6px 0 0 5px;
+}
+
+.link {
+    width: 23px;
+    height: 24px;
+    background-color: #a4dbd4;
+    border-right: 1px solid #9cd8cf;
+}
+
+#link2, #link3, #link6 {
+    background-color: #6ccbbe;
+}
+
+#link1 {
+    width: 25px;    
+}
+
+#link1 i {
+    margin-left: 7px;
+}
+
+.link:hover {
+    background-color: #5ab8ab !important;
+    animation-name: resize;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
