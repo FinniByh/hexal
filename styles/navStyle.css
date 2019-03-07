@@ -5,17 +5,17 @@ nav {
     padding-top: 10px;
 }
 
-ul {
+nav ul {
     position: relative;
     left: 28%;
     cursor: default;
 }
 
-ul:nth-child(3) li{
+nav ul:nth-child(3) li{
     margin-left: 25px;
 }
 
-li {
+nav li {
     display: inline-block;
     color: white;
     justify-content: space-between;
@@ -25,7 +25,7 @@ li {
     margin-left: 35px;
 }
 
-li:nth-child(2) {
+nav li:nth-child(2) {
     margin-left:25px;
 }
 
@@ -40,7 +40,7 @@ h1:hover {
     width: 100px;
 }
 
-img {
+.navLogo img {
     margin-left: 10px;
     height: 50px;
     width: 63px;
