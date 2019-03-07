@@ -1,0 +1,129 @@
+.footer {
+    background-color: #323232;
+    padding-top: 1px;
+}
+
+.footerContainer {
+    margin: 12px auto 0;
+    width: 960px;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.forms {
+    width: 568px;
+    margin: 45px 0 0 74px;
+}
+
+.forms input, textarea {
+    width: 100%;
+    height: 37px;
+    background-color: #454545;
+    color: #bebebe;
+    font-family: lato, sans-serif;
+    font-size: 8pt;
+    border: none;
+    border-left: 12px solid #454545;
+    resize: none;
+}
+
+.forms textarea {
+    border-top: 11px solid #454545;
+    border-left: 17px solid #454545;
+    width: 564px;
+    height: 138px !important;
+}
+
+.inputName {
+    margin-bottom: 16px;
+}
+
+.inputMail {
+    margin-bottom: 18px;
+}
+
+.inputSubject {
+    margin-bottom:17px;
+}
+
+#message {
+    height: 150px;
+}
+
+.formName {
+    color: white;
+    font-family: mavenPro, sans-serif;
+    font-size: 22pt;
+}
+
+.formDescription {
+    color: white;
+    font-family: mavenPro, sans-serif;
+    font-size: 13pt;
+    word-spacing: 2px;
+}
+
+.forms button {
+    position: relative;
+    left: 12px;
+    float: right;
+    color: white;
+    font-family: lato-bold, sans-serif;
+    font-size: 8pt;
+    background-color: #2eb398;
+    height: 37px;
+    width: 90px;
+    border: none;
+    margin: 12px 0 52px;
+}
+
+.contacts {
+    width: 185px;
+    margin: 114px 68px 0 0;
+    color: #bebebe;
+}
+
+.contacts span {
+    font-size: 9pt;
+    line-height: 22px;
+    text-align: justify;
+    word-spacing: 3px;
+    font-family: lato, sans-serif;
+}
+
+.contacts b {
+    font-family: lato-bold, sans-serif
+}
+
+.contactLinks {
+    margin-top: 34px;
+    font-family: lato-bold, sans-serif;
+}
+
+.contacts i {
+    font-size: 8pt;
+    color: #2eb398;
+    margin-right: 15px;
+}
+
+.contacts a {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: #222222;
+    color: #3b3b3b;
+    margin-top: 11px;
+    height: 42px;
+}
+
+.copyright p {
+    margin-left: 39px;
+    padding-top: 15px;
+    font-size: 9pt;
+    font-family: mavenPro, sans-serif;
+}

@@ -1,16 +1,3 @@
-@font-face{
-    font-family: lato;
-    src: url(../fonts/Lato-Regular.ttf);
-}
-@font-face{
-    font-family: lato-bold;
-    src: url(../fonts/Lato-Bold.ttf);
-}
-@font-face{
-    font-family: mavenPro;
-    src: url(../fonts/MavenPro-Regular.ttf);
-}
-
 @keyframes resize{
     from {
         width: 23px;
@@ -18,6 +5,7 @@
     }
 
     to {
+        position: relative;
         width: 30px;
         height: 30px;
     }
@@ -140,6 +128,7 @@
     width: 960px;
     border-bottom: 1px solid #e4e9eb;
     cursor: default;
+    user-select: none;
 }
 
 .sliderButtons button {
@@ -159,7 +148,7 @@
     background-color: #2eb398;
 }
 
-.blog .container {
+.blog .blogContainer {
     width: 820px;
     margin: 14px auto 0;
     border-left: 1px solid #219d84;
@@ -224,10 +213,9 @@
 }
 
 .link {
-    width: 23px;
+    width: 24px;
     height: 24px;
     background-color: #a4dbd4;
-    border-right: 1px solid #9cd8cf;
 }
 
 #link2, #link3, #link6 {
@@ -245,6 +233,6 @@
 .link:hover {
     background-color: #5ab8ab !important;
     animation-name: resize;
-    animation-duration: 1s;
+    animation-duration: 0s;
     animation-fill-mode: forwards;
 }

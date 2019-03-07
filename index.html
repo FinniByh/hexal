@@ -16,20 +16,20 @@
         <div class="header">
             <nav>
                 <ul>
-                    <li><h1>PORTFOLIO</h1></li>
-                    <li><h1>ABOUT</h1></li>
+                    <li><a href="#portfolio"><h1>PORTFOLIO</h1></a></li>
+                    <li><a href="#about"><h1>ABOUT</h1></a></li>
                 </ul>
                 <div class="navLogo">
                     <img src="images/Logo.png" alt="Logo">
                 </div>
                 <ul>
-                    <li><h1>BLOG</h1></li>
-                    <li><h1>GET IN TOUCH</h1></li>
+                    <li><a href="#about"><h1>BLOG</h1></a></li>
+                    <li><a href="#getInTouch"><h1>GET IN TOUCH</h1></a></li>
                 </ul>
             </nav>
         </div>
         <div class="main">
-            <div class="hexagonals">
+            <div class="hexagonals"><a name="portfolio"></a>
                 <div class="firstRow">
                     <div class="leftBorder"></div>
                     <div class="hexagon">
@@ -114,8 +114,8 @@
                 <button></button>
                 <button></button>
             </div>
-            <div class="blog">
-                <div class="container">
+            <div class="blog"><a name="about"></a>
+                <div class="blogContainer">
                         <div class="personImage">
                             <div class="hexagon">
                                 <div class="hexagonInside">
@@ -161,6 +161,28 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="footer"><a name='getInTouch'></a>
+            <div class="footerContainer">
+                <div class="forms">
+                    <span class="formName"><p>Get In Touch</p></span>
+                    <span class="formDescription"><p>In order to get in touch use the contact form below:</p></span>
+                    <input type="text" value="Name (Required)" class="inputName">
+                    <input type="text" value="Email (Required)" class="inputMail">
+                    <input type="text" value="Subject" class="inputSubject">
+                    <textarea id="message">Write your message here...</textarea>
+                    <button>SEND</button>
+                </div>
+                <div class="contacts">
+                    <span><p><b>Quisque Hendrerit:</b> purus dapi- bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p></span>
+                    <p class="contactLinks"><i class="fas fa-map-marker-alt"></i><span>Elm St. 14/05 Lost City</span></p>
+                    <p><a href="tel:0000-0000-0000"><i class="fa fa-phone"></i><span>+3528 331 86 35</span></a></p>
+                    <p><a href="mailto:informationteam@ghosthost.com"><i class="fa fa-envelope"></i><span>info@hexalcorp.com</span></a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <span><p>&#169 Copyright 2013 by PSDchat</p></span>
             </div>
         </div>
     </div>
