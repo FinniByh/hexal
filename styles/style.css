@@ -1,14 +1,14 @@
 @font-face{
     font-family: lato;
-    src: url('../fonts/Lato-Regular.ttf');
+    src: url('../assets/Lato-Regular.ttf');
 }
 @font-face{
     font-family: lato-bold;
-    src: url('../fonts/Lato-Bold.ttf');
+    src: url('../assets/Lato-Bold.ttf');
 }
 @font-face{
     font-family: mavenPro;
-    src: url('../fonts/MavenPro-Regular.ttf');
+    src: url('../assets/MavenPro-Regular.ttf');
 }
 
 * {
