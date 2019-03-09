@@ -10,6 +10,20 @@
     }
 }
 
+.main {
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    transition: left 1s; 
+    -o-transition: left 1s; 
+    -moz-transition: left 1s; 
+    -webkit-transition: left 1s;
+}
+
 .borders {
     display: flex;
     justify-content: space-between;
@@ -26,8 +40,9 @@
 }
 
 .hexagonals {
-    margin-top: 78px;
+    margin: 78px 0 0 10px;
     height: 550px;
+    width: 100%;
 }
 
 .hexagonals div:nth-child(n) {
@@ -150,6 +165,8 @@
     height: 5px;
     width: 5px;
     border: none;
+    background-color: #ddd2c5;
+    outline: none;
 }
 
 .sliderButtons button:hover {
@@ -250,4 +267,12 @@
     background-color: #5ab8ab !important;
     animation: resize 0s forwards;
     border: 1px solid aqua;
+}
+
+.active {
+    background-color: #a4dbd4;
+}
+
+.notActive {
+    background-color: #ddd2c5;
 }
