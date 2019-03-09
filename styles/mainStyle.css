@@ -1,11 +1,10 @@
-@keyframes resize{
+@keyframes resize {
     from {
         width: 23px;
         height: 24px;
     }
 
     to {
-        position: relative;
         width: 30px;
         height: 30px;
     }
@@ -156,7 +155,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 55px;
+    padding-bottom: 44px;
 }
 
 .personImage {
@@ -201,6 +200,8 @@
     position: relative;
     float: right;
     margin-top: 38px;
+    height: 35px;
+
 }
 
 .links a {
@@ -232,7 +233,6 @@
 
 .link:hover {
     background-color: #5ab8ab !important;
-    animation-name: resize;
-    animation-duration: 0s;
-    animation-fill-mode: forwards;
+    animation: resize 0s forwards;
+    border: 1px solid aqua;
 }
