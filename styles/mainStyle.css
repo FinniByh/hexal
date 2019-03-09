@@ -170,7 +170,7 @@
 }
 
 .sliderButtons button:hover {
-    background-color: #8b8784;
+    background-color: #8b8784 !important;
 }
 
 .blog {

@@ -19,6 +19,3 @@ buttons.addEventListener("click", function(e){
     buttons.children[currentPage].style = "background-color: #a4dbd4";
 
 })
-
-
-
