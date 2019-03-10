@@ -96,51 +96,51 @@
 }
 
 #hex-1 {
-    background-image: url('../images/Layer-33.jpg');
+    background-image: url('../assets/images/Layer-33.jpg');
     background-position-y: -14px;
 }
 #hex-2 {
-    background-image: url('../images/Layer-31.jpg');
+    background-image: url('../assets//images/Layer-31.jpg');
     background-position-y: -10px;
 }
 #hex-3 {
-    background-image: url('../images/Layer-34.jpg');
+    background-image: url('../assets//images/Layer-34.jpg');
 }
 #hex-4 {
-    background-image: url('../images/Layer-35.jpg');
+    background-image: url('../assets//images/Layer-35.jpg');
     background-position-y: -19px;
 }
 #hex-5 {
-    background-image: url('../images/Layer-36.jpg');
+    background-image: url('../assets//images/Layer-36.jpg');
     background-position-y: -14px;
 }
 #hex-6 {
-    background-image: url('../images/Layer-44.jpg');
+    background-image: url('../assets//images/Layer-44.jpg');
     background-position-y: -16px;
 }
 #hex-7 {
-    background-image: url('../images/Layer-37.jpg');
+    background-image: url('../assets//images/Layer-37.jpg');
 }
 #hex-8 {
-    background-image: url('../images/Layer-38.jpg');
+    background-image: url('../assets//images/Layer-38.jpg');
     background-position-x: -20px;
 }
 #hex-9 {
-    background-image: url('../images/Layer-39.jpg');
+    background-image: url('../assets//images/Layer-39.jpg');
     background-position-x: -23px;
     background-position-y: -13px;
 }
 #hex-10 {
-    background-image: url('../images/Layer-40.jpg');
+    background-image: url('../assets//images/Layer-40.jpg');
 }
 #hex-11 {
-    background-image: url('../images/Layer-41.jpg');
+    background-image: url('../assets//images/Layer-41.jpg');
 }
 #hex-12 {
-    background-image: url('../images/Layer-43.jpg');
+    background-image: url('../assets//images/Layer-43.jpg');
 }
 #hex-13 {
-    background-image: url('../images/Layer-42.jpg');
+    background-image: url('../assets//images/Layer-42.jpg');
     background-position-x: -10px;
 }
 
@@ -195,7 +195,7 @@
 }
 
 #person {
-    background-image: url('../images/person.jpg');
+    background-image: url('../assets/images/person.jpg');
 }
 
 .personInformation {
